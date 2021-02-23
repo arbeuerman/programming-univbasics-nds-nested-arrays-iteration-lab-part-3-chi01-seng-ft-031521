@@ -18,7 +18,7 @@ def join_nested_strings(src)
     end 
     outer_array_counter += 1 
   end 
-  sentence
+  sentence.join(" ")
 end
 
 puts join_nested_strings([
