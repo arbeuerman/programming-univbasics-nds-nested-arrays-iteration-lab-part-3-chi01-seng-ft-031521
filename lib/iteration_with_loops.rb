@@ -21,3 +21,8 @@ def join_nested_strings(src)
   sentence
 end
 
+puts join_nested_strings([
+  ["hello", 5, 6, "my"],
+  [9, 3, "name", 9],
+  [4, 4, "is", 5, "ronnie"]
+  ])
